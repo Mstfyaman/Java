@@ -1,0 +1,17 @@
+final Keyword is not access modifier
+    -we can use it with variable-method-class
+
+    **final variables**
+    to create constant(katı-değişmez) variable
+    if the instance variable is final;
+    -we initialize(başlatmak) in same statament(beyan) or
+    -we initialize in constructor or
+    -we initialize in instance block
+
+
+    **finalMethod**
+    prevent method overriding
+
+    **finalClass**
+    prevent inheritance
+    for immutable(değişmez) consept; be final is needed. for example String class

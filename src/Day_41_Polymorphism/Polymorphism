@@ -1,0 +1,12 @@
+1-programımızda yazılan gereksiz kod fazlalığından kurtarır
+2-farklı tanımlamalar sayesinde esneklik sağlar
+ çok biçimlilik
+ Alpharsslan bet öğretmen,öğrenci,tester
+
+ Alpharslan alpharslan=new tester();
+ Alpharslan alpharslan=new Ogretmen();
+
+ 3-karmaşıklığı azaltır. Geri okunabilirliği artırır
+ 4-hata ayıklamayı kolaylaştırır
+ 5-Güvenliği artırır. (Baplantılı methotları indirgediği için hatalı işlem yapmayı
+   engellemeye yardımcı olur)

@@ -1,0 +1,61 @@
+-Abstraction belirli bir örnek yerine bir nesnenin
+temel neiteliklerine odaklanmak için önemsiz olanları görmezden gelme
+
+- soyutlama Abstract class ve interfaceler sayesinde yapılıyor
+
+-soyut bir sınıf somutlaştırılamaz
+
+-soyut sınıflardaki amaç alt sınıflara yeniden kullanılabilir değişkenler ve methodlar sağlamaktır
+
+-asıl amaç; alt sınıfları bu öethodları yazmaya zorlamak
+
+----Abstract class Hayvan{
+abstract void yemek(){ }
+}
+class Panter extends Hayvan{           // alt sınıf olan panter yemek'i tanımlama zorunda
+public void yemek(){
+sout("panterler et yer") }
+}
+class BeyazPanter extends Panter{
+zorunlu değil
+}
+
+
+
+-abstact sınıfların bir alt sınıfa concrete class denir
+
+-1. concrete class da implement zorunlu. implementasyon
+
+-abstraction class birbirlerine extends olabilirler. uygulama isteğe bağlı
+fakat uygulamazsa en alt class üzerindeki tüm parentlerin abstarct methodlarını uygulamak zorunda
+
+-absract classlardan obje oluşturulamaz
+
+-absract classlar methodlar nonabsract veya abstract olabilir.
+
+-absract methodlar final veya private olamazlar
+
+-absract classlarda constructor olabilir
+
+-interfacelerde constructor olmaz
+
+-absract class instance, static ve final değişkenler tanımlanabilir
+
+-absract class extends interfaceler ise implements kullanır
+
+-interfacele genellikle özellik eklemek için kullanılır
+
+-interfaceler sadece public access modifiler kullanabilir
+
+-interfaceler sınıfları başka bir sınıfı genişletmezler özellik eklerler
+
+-interfaceler public, static, final değişkenlere sahip olabilirler
+
+-interfacelerde java 8 den sonra default ve static methodlar eklenmiştir.
+
+- interfaceler multiple inheritance yapılabilir. Çünkü kalıtımı destekler
+
+-interface Hayvan implements yürüme, kosma{
+}
+
+-java 9 dan saonra gelen özellik ile interfacelerde private methodlar tanımlanabilir.
