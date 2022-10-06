@@ -11,7 +11,7 @@ public class MapExample {
 //        list.add(8);
 
 
-        // Map<Key,Value> map=new HashMap<>();  böyle yanımlanır sol key dir sağ value
+        // Map<Key,Value> map=new HashMap<>();  böyle tanımlanır sol key dir sağ value
 
          Map<Integer, String> map= new HashMap<>();   // HashMap te yazarsak sıralama yapmaz
        // Map<Integer, String> map= new TreeMap<>();   // TreeMap de keylere göre doğal bir sıralama yapar küçükten büyüğe gibi
@@ -36,7 +36,7 @@ public class MapExample {
         myMap.put(40,"Jaguar");
         myMap.put(50,"Mercedes");
 
-       // System.out.println(myMap.get(40));     // mymap i çağırdık
+       // System.out.println(myMap.get(40));     // 40 nolu key i çağırdık
        // System.out.println(myMap.size());     // boyutuna baktık
        // System.out.println(myMap.toString());    //içerisindeki verileri detaylıca gördük
        // myMap.remove(40);   // 40 nolu keyi sildik
@@ -46,13 +46,13 @@ public class MapExample {
        //   myMap.replace(40,"VolkWagen");    // 40 nolu keydeki jaguarı sildik ve volkswagen yazdık
        // System.out.println(myMap);
 
-       // System.out.println(myMap.keySet());   // bu keylerin hepsini bir collection içersiine atar ve keylerin hepsini görürüz
+       // System.out.println(myMap.keySet());   // bu keylerin hepsini bir collection içersine atar ve keylerin hepsini görürüz
        //  System.out.println(myMap.values());  //  bu valuelerin hepsini bir collection içersiine atar ve keylerin hepsini görürüz
 
-        // myMap.forEach((k,v)-> System.out.println(k+" -->"+v));   7/keylerle beraber valueleri yazdıdır
+        // myMap.forEach((k,v)-> System.out.println(k+" -->"+v));   //  keylerle beraber valueleri yazdıdır
 
 
-//        for (Integer num: myMap.keySet()) {   // ınteger num değişkeni oluşturduk ve keyleri çağırdık
+//        for (Integer num: myMap.keySet()) {   // foreach ile bir ınteger num değişkeni oluşturduk ve valueleri çağırdık
 //            System.out.println(myMap.get(num));
 //        }
 
@@ -71,17 +71,17 @@ public class MapExample {
 
 
 
-//        for (Map<Integer,String> sinif : list ) {        // burda objelerdeki bütün valueleri çağırdık
+//        for (Map<Integer,String> sinif : list ) {        // burda liste ait objelerdeki bütün valueleri çağırdık
 //            for (Integer key: sinif.keySet()) {
 //                System.out.println(sinif.get(key));
 //            }
 //        }
 
 
-        for (int i=0; i<list.size(); i++){   // list in içindeki objeleri çağırıyor. sitring olarak
-
-            System.out.println(list.get(i));
-        }
+//        for (int i=0; i<list.size(); i++){   // list in içindeki objeleri çağırıyor. sitring olarak
+//
+//            System.out.println(list.get(i));
+//        }
 
 
 

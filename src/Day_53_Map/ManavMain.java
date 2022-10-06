@@ -4,20 +4,22 @@ import java.util.*;
 import java.util.TreeMap;
 
 public class ManavMain {
+
+
     public static void main(String[] args) {
 
         Map<String,Manav> manav=new TreeMap<>();
 
-        manav.put("02Elma05",new Manav("elma",25.99));
+        manav.put("02Elma05",new Manav("elma",25.99));       // burda new diyerek bir manav obleji oluşturduk.  yani = Manav manav1=new Manav();  gibi yeni bir obje
         manav.put("Ayva0204",new Manav("ayva",36.99));
 
-        manav.get("Ayva0204").setFiyat(75.99);  // private  olduğu için setle değiştiriyoruz.
-        manav.get("Ayva0204").fiyatArtır(5);
+        manav.get("Ayva0204").setFiyat(75.99);  // private  olduğu için setle ayvanın fiyatını değiştiriyoruz.
+        manav.get("Ayva0204").fiyatArtır(5);  // manav classındaki fiyat artır metodunu kullanarak fiyatı 5 artırdık
      //   System.out.println(manav.get("Ayva0204").getFiyat());
 
 
 
-        for (String key: manav.keySet() ) {    // bütün keyleri yazdırmak istersek
+        for (String key: manav.keySet() ) {    // bütün keylerin fiyatlarını yazdırmak istersek
             System.out.println(manav.get(key).getFiyat());
         }
 
