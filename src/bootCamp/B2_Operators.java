@@ -30,9 +30,42 @@ public class B2_Operators {
         System.out.println("value = " + value);
 
 
-        // The assigment operators
-        // The equality and relational operators
-        // The conditional/logical operators
+
+
+        // The assigment operators  // = ( eşittir)
+        int t = 10;
+        int j = 20;
+
+        j= j+t;
+        j+=t;  // bir üsttekiyle aynı
+
+
+        // The equality and relational operators  // == equal to   != not equal  <  <=  >  >=
+            // all of above represent boolean condition   // true or false ifade eder
+
+        double d= 10;
+        if (d==10){} // true
+        if (d>=10){} // true
+        if (d<=10){} // true
+        if (d!=10){} // false
+        if (d>10){} // false
+        if (d<10){} // false
+
+
+
+        // The conditional/logical operators //    || | & && ^
+           // &  her iki tarafıda control eder ilki true ama diğeri false ise false, true true ise true verir.
+           // &&  her iki tarafı kontrol etmez tek taraf false ise false verir. ikise true olmalı
+           // ^  her iki taraf ta aynıysa false döndürür. taraflar farklıysa true döndürür
+           // ||  taraflardan en az birinin true olması gerekir ve öyleyse true döndürür
+           // |
+
+
+
+
+
+
+
 
 
 

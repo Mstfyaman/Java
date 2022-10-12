@@ -1,7 +1,5 @@
 package bootCamp;
 
-import java.util.Scanner;
-
 import static Day_45_OOP_ReviewCont2._interface.A.j;
 
 public class B1_DataTypes_Wrapper {
@@ -103,15 +101,15 @@ public class B1_DataTypes_Wrapper {
       //  System.out.println("Character.isAlphabetic('*') = " + Character.isAlphabetic('*'));  // alfabede bu var mı diye sorduk false
 
 
-        String dateEncrypted = "//*|1=*&&/%+%+%_M__!2½{½#7#A$$?_Y___!!!I!2//&&+%S%&%&½½½$$###]]}}}½$½$½2";
-        String dateDecrypt="";
-        for (int j=0; j< dateEncrypted.length(); j++);{
-
-            if (Character.isLetterOrDigit(dateEncrypted.charAt(j))){
-                dateDecrypt+=dateEncrypted.charAt(j);
-            }
-        }
-        System.out.println("dateDecrypt = " + dateDecrypt); //
+//        String dateEncrypted = "//*|1=*&&/%+%+%_M__!2½{½#7#A$$?_Y___!!!I!2//&&+%S%&%&½½½$$###]]}}}½$½$½2";
+//        String dateDecrypt="";
+//        for (int j=0; j< dateEncrypted.length(); j++);{
+//
+//            if (Character.isLetterOrDigit(dateEncrypted.charAt(j))){
+//                dateDecrypt+=dateEncrypted.charAt(j);
+//            }
+//        }
+//        System.out.println("dateDecrypt = " + dateDecrypt); //
 
 
     }

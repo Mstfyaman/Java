@@ -5,6 +5,7 @@ import Day_24_Arrays_2.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Ornek2 {
 
@@ -20,20 +21,26 @@ public class Ornek2 {
         String[] s = str.split(" ");
         String[] s2 = str2.split(" ");
 
-        List <String> list=new ArrayList<>(Arrays.asList(str));
-        List <String> list2=new ArrayList<>(Arrays.asList(str2));
+        List <String> list=new ArrayList<>(Arrays.asList(s));
+        List <String> list2=new ArrayList<>(Arrays.asList(s2));
 
-        for (int i = 0; i <list.size() ;) {
-            if (list.get(i).equals(list2.get(i))){
-                list.remove(list.get(i));
-                continue;
+        for (int i = 0; i <list.size(); i++ ) {
+            for (int j=0; j<list2.size(); j++){
+
+                if (list.get(i).equals(list2.get(j))){
+                    list.remove(list.get(i));
+
+                }
             }
-            i++;
         }
-        System.out.println(list);
+      //  System.out.println(list);
 
 
-        // System.out.println("list.removeAll(list2) = " + list.removeAll(list2));
+       //  System.out.println("list.removeAll(list2) = " + list.removeAll(list2));
+       //  System.out.println(list);
+
+
+
 
         // System.out.println(removeReverse2(str));
 
@@ -57,6 +64,20 @@ public class Ornek2 {
 //
 //        return  strList;
 //    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
