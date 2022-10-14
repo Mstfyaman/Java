@@ -1,5 +1,6 @@
 package Assignments.mixed;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BosClass {
@@ -70,8 +71,57 @@ public class BosClass {
 
 
 
+//        Scanner sc=new Scanner(System.in);
+//        int size=sc.nextInt();
+//
+//        int[] Array =new int[size];
+//        for(int i=0; i<size; i++){
+//            Array[i]=sc.nextInt();
+//
+//        }
+//
+//        if (size==1){
+//            int[] newArray =new int[1];
+//            newArray[0]=Array[0];
+//            System.out.println(Arrays.toString(newArray));
+//        }else {
+//            int[] newArray =new int[2];
+//            newArray[0]=Array[0];
+//            newArray[1]=Array[Array.length-1];
+//            System.out.println(Arrays.toString(newArray));
+//        }
 
-//kodlarınıza b
+//_____________________________________________________________________
+
+
+
+        Scanner scan = new Scanner(System.in);
+        int size = scan.nextInt();
+        int[] array = new int[size];
+        for(int i =0; i < size; i++) {
+            array[i] = scan.nextInt();
+        }
+
+        if (size==1){
+            int[] newArray =new int[1];
+            newArray[0]=array[0];
+            System.out.println(Arrays.toString(newArray));
+        } else if (size==2){
+            int[] newArray =new int[1];
+            newArray[0]=array[0]+array[1];
+            System.out.println(Arrays.toString(newArray));
+
+        } else if (size >= 3) {
+                for (int i=2; i<size; i++){
+                    int[] newArray =new int[size-1];
+                    newArray[0]=array[0]+array[1];
+                    newArray[i-1]=array[i];
+                   // System.out.println(Arrays.toString(newArray));
+                }
+        }
+
+
+
 
 
 

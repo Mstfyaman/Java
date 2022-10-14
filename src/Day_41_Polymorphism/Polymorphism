@@ -1,7 +1,7 @@
 1-programımızda yazılan gereksiz kod fazlalığından kurtarır
 2-farklı tanımlamalar sayesinde esneklik sağlar
  çok biçimlilik
- Alpharsslan bet öğretmen,öğrenci,tester
+ Alpharsslan bey öğretmen,öğrenci,tester
 
  Alpharslan alpharslan=new tester();
  Alpharslan alpharslan=new Ogretmen();

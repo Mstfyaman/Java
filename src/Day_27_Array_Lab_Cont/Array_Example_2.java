@@ -2,6 +2,7 @@ package Day_27_Array_Lab_Cont;
 
 import java.util.Arrays;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Array_Example_2 {
     public static void main(String[] args) {
@@ -27,6 +28,10 @@ public class Array_Example_2 {
         //System.out.println(verileKelime(alinti1));
         //System.out.println(Arrays.toString(enKucukSayiVeSifirAta(sayi5)));
         System.out.println(Arrays.toString(degerAtamaKontrol(sayi6,5,8,1)));
+
+
+
+
 
 
     }
@@ -193,6 +198,10 @@ return false;
         }
         return yeniArray;
     }
+
+
+//-----------------------------
+
 
 
 
