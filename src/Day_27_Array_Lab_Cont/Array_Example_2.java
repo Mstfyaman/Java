@@ -10,7 +10,7 @@ public class Array_Example_2 {
         int sayi1[]={13,15,14,22,85,77};
         int sayi2[]={13,14,15,22,85,77};
         int sayi3[]={1,2,2,8,9,15};
-        int sayi4[]={1,2,3,2};
+        int sayi4[]={5,55,66,2,99,70,55};
         int sayi5[]={5,7,1,9};
         int sayi6[]={6,5,8,6,8,5,8};
         String alinti1="araba ile yola çıktık fakat araba arıza yaptı ";
@@ -22,12 +22,12 @@ public class Array_Example_2 {
         //System.out.println(enBüyükİkinciSayi(sayi1));
         //System.out.println(ardArdaUc(sayi2));
         //System.out.println(Arrays.toString(yalnizSayilar(sayi3)));
-        //System.out.println(enCokSayi(sayi4));
+        System.out.println(enCokSayi(sayi4));
         //System.out.println(dublicateControl(sayi3));
         // System.out.println(filVeFare(alinti,"o"));
         //System.out.println(verileKelime(alinti1));
         //System.out.println(Arrays.toString(enKucukSayiVeSifirAta(sayi5)));
-        System.out.println(Arrays.toString(degerAtamaKontrol(sayi6,5,8,1)));
+      //  System.out.println(Arrays.toString(degerAtamaKontrol(sayi6,5,8,1)));
 
 
 
@@ -90,16 +90,16 @@ public class Array_Example_2 {
 
     //16  // Array’in içerisinde en çok bulunan sayıyı veren metodu yazınız. (eşitlik durumda herhangi
     //birini alabilir,1 den fazla bulunmuyorsa -1 döndürecek)
-
+   // 0 1 2 3
     public static int enCokSayi(int[] arr){
-        int enCok=arr[0];
+        int enCok=-1;
         int count=0;
         int adet=0;
 
         for (int i=0; i<arr.length; i++){
             count=0;
 
-            for (int j=0; j<arr.length; i++){
+            for (int j=i+1; j<arr.length; j++){
                 if (arr[i]==arr[j]){
                     count++;
                 }
