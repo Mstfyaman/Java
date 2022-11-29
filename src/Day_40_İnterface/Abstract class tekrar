@@ -16,4 +16,3 @@ Abstraction class ve interface yapıları ile abstraction sağlayabiliyoruz
 13-Abstract methods protected olabilir
 14-Abstract classlar multiple inheritance olamaz
 15-Abstract classa extends olan bir başka abstract class implementasyon görevi üstlenmeyebilir
-16-

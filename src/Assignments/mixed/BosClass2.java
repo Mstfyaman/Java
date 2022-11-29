@@ -11,12 +11,12 @@ public class BosClass2 {
      //   printStrings(s, "");
 
 
-      //  String string = "QWE";        // listli çözüm
-      //  Permutations(string);
+        String string = "QWE";        // listli çözüm
+        Permutations(string);
 
 
-        String s = "java";         // boolean çözüm
-        Permutations(s,"");
+      //  String s = "java";         // boolean çözüm
+      //  Permutations(s,"");
 
 
     }
